@@ -1,0 +1,586 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/*.header{
+    background-image: url(https://st4.depositphotos.com/3396639/27883/i/450/depositphotos_278832348-stock-photo-intelligent-male-entrepreneur-dressed-luxury.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(1px);
+}*/
+.main img{
+    width: 100%;
+    filter: blur(20px);
+    height: 400px;
+}
+.header .list{
+    position: absolute;
+    top: 20px;
+}
+.header .matter{
+       position: absolute;
+       top: 100px;
+}
+.header .list{
+    list-style-type:  none;
+    padding: 0;
+    margin: 0;
+   
+}
+.header .list li{
+    float: left;
+    text-transform: uppercase;
+   
+}
+.header .list li a{
+    display: block;
+    padding: 20px;
+   color: white;
+   text-decoration: none;
+}
+.header .list li i{
+    padding: 20px;
+    color: white;
+}
+.header .list li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.header .matter{
+    padding: 50px;
+    line-height: 1.5;
+}
+.header .matter .matter1{
+    text-transform: uppercase;
+    color: red;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.header .matter .matter2{
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+}
+button{
+    background-color: red;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    text-transform: uppercase;
+}
+.body1{
+     padding: 100px;
+}
+.body1 .matter3{
+    text-transform: uppercase;
+    color: rgb(161, 159, 159);
+    text-align: center;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.body1 .matter4{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.combine{
+    line-height: 1.5;
+}
+hr{
+    width: 20px;
+    border-bottom: rgb(250, 51, 16);
+}
+.body1 p{
+    line-height: 1.5;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    justify-content: center;
+    text-align: center;
+}
+.body1 button{
+    position: absolute;
+    left: 40%;
+}
+.body2{
+    background-color: black;
+    padding: 100px;
+    line-height: 1.5; 
+}
+.body2 .combine .matter5{
+    text-transform: uppercase;
+    color: red;
+    font-size: 30px;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.body2 .combine .matter6{
+    text-transform: uppercase;
+    color: white;
+    font-size: 40px;
+}
+.body2 img{
+   width: 400px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    filter: blur(8px);
+}
+.body3{
+    padding: 70px 120px;
+}
+.body3 .matter3{
+    text-transform: uppercase;
+    color: rgb(161, 159, 159);
+    text-align: center;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.body3 .matter4{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.container .container1 .num{
+    color: rgb(250, 51, 16);
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.vertical{
+    height: 20px;
+   border-left: 1px solid red;
+  margin-left: 165px;
+}
+.container{
+    display: flex;
+    text-align: center;
+}
+.container .container1{
+    border: 1px solid rgb(230, 230, 230);
+    margin: 10px;
+    padding: 20px 10px;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.5;
+}
+.container .container1 .heading{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.body4 .combine{
+    position: absolute;
+    top: 307%;
+    left: 35%;
+}
+.body4 .matter3{
+    text-transform: uppercase;
+    color: rgb(161, 159, 159);
+    text-align: center;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.body4 .matter4{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+}
+.body4 img{
+    width: 100%;
+    filter: blur(10px);
+    height: 600px;
+}
+.body4 .container2{
+    position: absolute;
+    top: 315%;
+}
+.container2{
+    display: flex;
+    text-align: center;
+    margin: 60px;
+}
+.container2 .result{
+    border: 1px solid rgb(230, 230, 230);
+    margin: 10px;
+    padding: 20px 50px;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.5;
+    text-transform: capitalize;
+    color: white;
+}
+.container2 .result .num{
+    color: rgb(250, 51, 16);
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.body5 .matter3{
+    text-transform: uppercase;
+    color: rgb(161, 159, 159);
+    text-align: center;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.body5 .matter4{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.body5{
+    padding: 70px 120px;
+}
+.body5 p{
+    line-height: 1.5;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    justify-content: center;
+    text-align: center;
+}
+.body6{
+    display: flex;
+    flex-wrap: wrap;
+}
+.body6 img{
+    filter: blur(5px);
+}
+.body6 .image1{
+    position: absolute;
+    backdrop-filter: blur(10px);
+    font-size: 20px;
+    background: rgb(243, 76, 76, 0.4);
+    height: 30px;
+    width: 295px;
+    padding-top: 220px;
+    color: white;
+    text-transform: capitalize;
+   
+}
+.body6 .image2{
+    position: absolute;
+    backdrop-filter: blur(10px);
+    font-size: 20px;
+    background: rgb(14, 13, 13, 0.4);
+    height: 30px;
+    width: 379px;
+    padding-top: 220px;
+    left: 295px;
+    color: white;
+    text-transform: capitalize;
+}
+.body6 .image3{
+    position: absolute;
+    backdrop-filter: blur(10px);
+    font-size: 20px;
+    background: rgb(243, 76, 76, 0.4);
+    height: 30px;
+    width: 295px;
+    padding-top: 220px;
+    left: 673.8px;
+    color: white;
+    text-transform: capitalize;
+}
+.body6 .image4{
+    position: absolute;
+    backdrop-filter: blur(10px);
+    font-size: 20px;
+    background: rgb(14, 13, 13, 0.4);
+    height: 30px;
+    width: 379px;
+    padding-top: 220px;
+    left: 969px;
+    color: white;
+    text-transform: capitalize;
+}
+.body6 .image5{
+    position: absolute;
+    backdrop-filter: blur(10px);
+    font-size: 20px;
+    background: rgb(14, 13, 13, 0.4);
+    height: 30px;
+    width: 379px;
+    padding-top: 220px;
+    color: white;
+    margin-top: 250px;
+    text-transform: capitalize;
+}
+.body6 .image6{
+    position: absolute;
+    backdrop-filter: blur(10px);
+    font-size: 20px;
+    background: rgb(243, 76, 76, 0.4);
+    height: 30px;
+    width: 295px;
+    padding-top: 220px;
+    left: 379px;
+    color: white;
+    margin-top: 250px;
+    text-transform: capitalize;
+}
+.body6 .image7{
+    position: absolute;
+    backdrop-filter: blur(10px);
+    font-size: 20px;
+    background: rgb(14, 13, 13, 0.4);
+    height: 30px;
+    width: 379px;
+    padding-top: 220px;
+    color: white;
+    left: 672px;
+    margin-top: 250px;
+    text-transform: capitalize;
+}
+.body6 .image8{
+    position: absolute;
+    backdrop-filter: blur(10px);
+    font-size: 20px;
+    background: rgb(243, 76, 76, 0.4);
+    height: 30px;
+    width: 295px;
+    padding-top: 220px;
+    left: 1052px;
+    color: white;
+    margin-top: 250px;
+    text-transform: capitalize;
+}
+.body6 .image9{
+    position: absolute;
+    backdrop-filter: blur(10px);
+    font-size: 20px;
+    background: rgb(243, 76, 76, 0.4);
+    height: 30px;
+    width: 295px;
+    padding-top: 220px;
+    color: white;
+    margin-top: 504px;
+    text-transform: capitalize;
+}
+.body6 .image10{
+    position: absolute;
+    backdrop-filter: blur(10px);
+    font-size: 20px;
+    background: rgb(14, 13, 13, 0.4);
+    height: 30px;
+    width: 379px;
+    padding-top: 220px;
+    color: white;
+    left: 295px;
+    margin-top: 502px;
+    text-transform: capitalize;   
+}
+.body6 .image11{
+    position: absolute;
+    backdrop-filter: blur(10px);
+    font-size: 20px;
+    background: rgb(243, 76, 76, 0.4);
+    height: 30px;
+    width: 295px;
+    padding-top: 220px;
+    color: white;
+    margin-top: 504px;
+    left: 673px;
+    text-transform: capitalize;
+}
+.body6 .image12{
+    position: absolute;
+    backdrop-filter: blur(10px);
+    font-size: 20px;
+    background: rgb(14, 13, 13, 0.4);
+    height: 30px;
+    width: 379px;
+    padding-top: 220px;
+    color: white;
+    left: 969px;
+    margin-top: 502px;
+    text-transform: capitalize;
+}
+.body7 .matter3{
+    text-transform: uppercase;
+    color: rgb(161, 159, 159);
+    text-align: center;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.body7 .matter4{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.body7{
+    padding: 70px 120px;
+}
+.body7 .bg{
+    display: flex;
+}
+.body7 .bg .bg-image{
+    margin: 10px;
+    padding: 20px 10px;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.5;
+}
+.body7 .bg .bg-image img{
+    filter: blur(3px);
+    height: 230px;
+    width: 300px;
+}
+.bg .bg-image .name{
+    text-transform: capitalize;
+}
+span{
+    color: red;
+}
+.bg-image .num{
+    color: red;
+}
+.bg-image .row{
+    display: flex;
+}
+.body8 .first-image img{
+    width: 100%;
+    filter: blur(10px);
+    height: 600px;
+}
+.body8 .combine{
+    position: absolute;
+    top: 660%;
+    left: 36%;
+}
+.body8 .matter3{
+    text-transform: uppercase;
+    color: rgb(161, 159, 159);
+    text-align: center;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.body8 .matter4{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+}
+.body8 .bg-image2  img{
+    width: 150px;
+    border-radius: 50%;
+    filter: blur(1px);
+}
+.bg-image2 .name{
+    text-transform: capitalize;
+    color: white;
+}
+.body8 .bg-image2{
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.5;
+    justify-content: center;
+    text-align: center;
+    padding: 70px 120px;
+    position: absolute;
+    top: 670%;
+    color: rgb(219, 207, 207)
+}
+.last{
+    padding: 70px 120px;
+}
+.last .matter3{
+    text-transform: uppercase;
+    color: rgb(161, 159, 159);
+    text-align: center;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.last .matter4{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.last .last-1{
+    display: flex;
+}
+.last .last-1 .last1 img{
+    width: 270px;
+    height: 180px;
+}
+.last .last-1 .last1{
+    margin: 10px;
+    padding: 20px 10px;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.5;
+}
+.last .last-1 .last1 img{
+    filter: blur(3px);
+    width: 330px;
+}
+.last-1 .last1 .heading1{
+    text-transform: capitalize;
+}
+span{
+    color: red;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+/*.bg-image .row{
+    display: flex;
+}*/
+.law{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 120px 50px 120px;
+}
+.law .law1 h3,
+.law .law1 h4
+{
+    color: white;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif; 
+}
+.law .law2 h3{
+    color: white;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif; 
+}
+.law .law2 ul{
+    list-style-type: none;
+    padding: 10px;
+    margin: 0%;
+}
+.law .law2 ul li a{
+    text-decoration: none;
+    color: red;
+    margin: 0%;
+    padding: 0%;
+    text-transform: capitalize;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif; 
+}
+.law .law3 h3{
+    color: white;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif; 
+}
+.input-field{
+    width: 250px;
+    padding: 8px;
+}
+.law .law3 .new .icon{
+    margin-left: -40px;
+    
+    color: red;
+}
+.law .law3 h3{
+    color: white;
+    font-weight: 700;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.law .law3 .new2 .fa{
+     background: white;
+     color: black;
+     padding: 14px;
+     border-radius: 50%;
+}
+.final{
+    color: white;
+    background-color: tomato;
+    text-align: center;
+    padding: 0.1px;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
